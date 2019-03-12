@@ -83,7 +83,7 @@
       <link rel="manifest" href="{{ config.extra.manifest }}">
     {% endif %}
     {% for path in config["extra_css"] %}
-      <link rel="stylesheet" href="{{ path | url }}">
+      <link rel="stylesheet" href="{{ path }}">
     {% endfor %}
     {% block analytics %}
       {% if config.google_analytics %}
