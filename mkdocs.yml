@@ -1,5 +1,5 @@
-site_name: Citrix Monitor API Reference     
-site_description:  Citrix Monitor API Reference
+site_name: Certificate Identity Declaration SDK for Citrix Workspace app for Windows    
+site_description:  Certificate Identity Declaration SDK for Citrix Workspace app for Windows
 theme_dir: citrix-sdk
 markdown_extensions:
   - admonition
@@ -8,7 +8,4 @@ markdown_extensions:
       anchorlink: True
 
 pages:
-- Monitor API: index.md
-- API reference:
-  - Monitor.Model: api-reference/Monitor.Model.md
-  - Monitor.Notifications: api-reference/Monitor.Notifications.md
+- Home: index.md
