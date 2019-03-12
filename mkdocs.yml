@@ -1,6 +1,47 @@
-site_name: Certificate Identity Declaration SDK for Citrix Workspace app for Windows    
+site_name: Certificate Identity Declaration SDK for Citrix Workspace app for Windows
+site_title: Developer Documentation    
 site_description:  Certificate Identity Declaration SDK for Citrix Workspace app for Windows
-theme_dir: citrix-sdk
+
+copyright: 'Copyright &copy; 1999-2019 Citrix Systems, Inc. All rights reserved. '
+
+extra_css:
+  - 'assets/stylesheets/extra.css'
+
+theme:
+  name: null
+  custom_dir: material
+  # 404 page
+  static_templates:
+    - 404.html
+
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  feature:
+    tabs: false
+  palette:
+    primary: white
+    accent: blue
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: /media/favicon.ico
+  logo: https://developer-docs.citrix.com/_static/Citrix_Logo_Black.png
+
+extra:
+  social:
+    - type: youtube
+      link: https://www.youtube.com/channel/UCiOupk9QF6jdk3EDKTHDykA
+    - type: github-alt
+      link: https://github.com/citrix
+    - type: twitter
+      link: https://twitter.com/citrixdeveloper
+    - type: linkedin
+      link: https://www.linkedin.com/company/citrix/
+
 markdown_extensions:
   - admonition
   - codehilite
@@ -8,5 +49,5 @@ markdown_extensions:
   - footnotes
   - meta
 
-pages:
+nav:
 - Home: index.md
