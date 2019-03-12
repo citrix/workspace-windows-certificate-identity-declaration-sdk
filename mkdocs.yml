@@ -4,8 +4,9 @@ theme_dir: citrix-sdk
 markdown_extensions:
   - admonition
   - codehilite
-  - toc:
-      anchorlink: True
+  - toc
+  - footnotes
+  - meta
 
 pages:
 - Home: index.md
