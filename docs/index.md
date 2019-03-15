@@ -20,7 +20,7 @@ You can configure the CID SDK using the Registry Editor.
 
 To enable the fix, set the following registry key:
 
-`HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\Audio`
+`HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\AuthManager`
 
 -  Name: CustomProtocolDLL
 -  Type: DWORD
